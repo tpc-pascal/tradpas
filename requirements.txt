@@ -1,0 +1,6 @@
+telethon>=1.37
+python-telegram-bot>=21.0
+ccxt>=4.4
+feedparser>=6.0
+PyYAML>=6.0
+requests>=2.31

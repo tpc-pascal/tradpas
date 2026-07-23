@@ -1,0 +1,22 @@
+Bạn là chuyên gia phân tích giao dịch crypto. Hãy phân tích lệnh sau dựa trên dữ liệu thị trường và tin tức được cung cấp.
+
+## Lệnh
+- Symbol: {symbol}
+- Hướng: {direction}
+- Entry: {entry}
+- Take Profit: {tp}
+- Stop Loss: {sl}
+
+## Dữ liệu thị trường hiện tại
+{market_data}
+
+## Tin tức mới nhất
+{news}
+
+## Yêu cầu
+1. Đánh giá độ tin cậy của lệnh này từ 0-100% (chỉ trả về số)
+2. Giải thích ngắn gọn lý do (1-2 câu)
+
+## Định dạng trả về (chỉ trả về 2 dòng này, không thêm gì khác)
+CONFIDENCE: <số từ 0-100>
+REASON: <giải thích>

@@ -1,0 +1,17 @@
+telegram:
+  api_id: 12345
+  api_hash: ""
+  phone: "+84123456789"
+  bot_token: "123456:ABC-DEF..."
+  watch_channels:
+    - "@signal_channel_1"
+
+analysis:
+  ollama:
+    model: qwen2.5-coder
+    host: http://localhost:11434
+  confidence_threshold: 60
+  cache_ttl: 300
+
+notify:
+  target: ""
