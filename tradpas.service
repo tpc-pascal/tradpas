@@ -1,0 +1,13 @@
+[Unit]
+Description=tradpas v1.0.0 - Telegram trading bot
+After=network.target ollama.service
+
+[Service]
+Type=simple
+ExecStart=%h/tradpas/.venv/bin/python %h/tradpas/src/main.py
+WorkingDirectory=%h/tradpas
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target
