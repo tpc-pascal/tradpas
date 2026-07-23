@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="32" fill="#0f172a"/>
+  <g transform="translate(100,80)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="-40" y1="20" x2="-10" y2="20" stroke="#22c55e" stroke-width="6"/>
+    <line x1="-10" y1="-20" x2="20" y2="-20" stroke="#22c55e" stroke-width="6"/>
+    <line x1="20" y1="10" x2="50" y2="10" stroke="#22c55e" stroke-width="6"/>
+    <line x1="-25" y1="20" x2="-25" y2="50" stroke="#22c55e" stroke-width="4"/>
+    <line x1="5" y1="-20" x2="5" y2="-50" stroke="#ef4444" stroke-width="4"/>
+    <line x1="35" y1="10" x2="35" y2="40" stroke="#22c55e" stroke-width="4"/>
+    <polyline points="-55,-10 -40,20 -10,20" stroke="#22c55e" stroke-width="3" fill="none"/>
+    <polyline points="-10,-20 20,-20 35,10" stroke="#22c55e" stroke-width="3" fill="none"/>
+    <polyline points="20,10 50,10 60,30" stroke="#22c55e" stroke-width="3" fill="none"/>
+  </g>
+  <text x="100" y="140" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#e2e8f0" letter-spacing="1">tradpas</text>
+  <text x="100" y="160" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="10" fill="#64748b" letter-spacing="2">TRADE SMART</text>
+</svg>
